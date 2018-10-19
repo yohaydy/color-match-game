@@ -1,0 +1,98 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  margin: 80px auto;
+}
+
+.title {
+  font-size: 22px;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.button {
+  padding: 15px;
+  border-radius: 3px;
+  background: #444;
+  color: tomato;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover {
+  background: #333;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.time {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.bottom-text {
+  margin-top: 20px;
+  color: #777;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.row {
+  display: block;
+}
+
+.board {
+  padding: 5px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.cell {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 0 2px;
+}
+
+/* settings */
+
+.settings {
+  max-width: 300px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display:flex;
+}
+
+label{
+  flex:1;
+  text-align:right;
+}
+
+input {
+  flex:1;
+  max-width: 80px;
+  margin-left:10px;
+}
